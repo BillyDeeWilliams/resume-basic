@@ -981,3 +981,25 @@ li.tech-subgroup> ul > li i, li.tech-subgroup> ul > li svg, li.tech-subgroup> ul
     font-weight: 500;
     line-height: 1.2;
 }
+
+section.objective-summary > p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+ul.contact-info {
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid darkgray;
+    padding: 10px;
+}
+ul.contact-info> li.gmail {
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+ul.contact-info> li.phone, ul.contact-info> li.location {
+    width: 45%;
+    margin: 0;
+    text-align: left;
+}
