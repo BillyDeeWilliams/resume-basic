@@ -108,8 +108,8 @@ div.column section {
  li.tech-subgroup > ul > li{
      width: 40%;
      font-size: 20px;
-     margin: 10px;
-     padding: 10px;
+     margin: 5px;
+     padding: 5px;
      text-align: center;
      text-transform: uppercase;
      font-weight: 500;
@@ -117,8 +117,8 @@ div.column section {
  li.tech-subgroup.languages > ul > li{
      font-weight: 500;
      align-items: center;
-     margin: 10px;
-     padding: 10px;
+     margin: 5px;
+     padding: 5px;
      display: flex;
      justify-content: center;
  }
@@ -149,12 +149,7 @@ i{
 ul.job-highlights  {
     list-style: circle;
     justify-content: start;
-    margin: 10px;
-}
-ul.job-highlights > li{
-margin: 10px;
-
-}
+    margin: 10px;}
 p.project-description {
     padding: 5px 15px;
 }
@@ -236,9 +231,7 @@ ul.exp-jobs {
 	vertical-align:middle;
 	line-height:1;
 	font-weight:normal;
-	font-style:normal;
-	speak:none;
-	text-decoration:inherit;
+	font-style:normal; text-decoration:inherit;
 	text-transform:none;
 	text-rendering:optimizeLegibility;
 	-webkit-font-smoothing:antialiased;
@@ -755,12 +748,10 @@ ul.contact-info> li{
 
 body{
     background-color: lightgrey;
-    font-size: 18px;
+    font-size: 16px;
 }
 h1,h2, #technologies h3,  #technologies li{
-
-  //  text-shadow: -2px 1px 5px #766f6fc7;
-
+    /* text-shadow: -2px 1px 5px #766f6fc7; */
 }
 
 .name{
@@ -847,8 +838,8 @@ div.column section {
  li.tech-subgroup > ul > li{
      width: 40%;
      font-size: 16px;
-     margin: 10px;
-     padding: 10px;
+     margin: 5px;
+     padding: 5px;
      text-align: center;
      text-transform: uppercase;
      font-weight: 500;
@@ -857,8 +848,8 @@ div.column section {
      font-weight: 500;
      width: 26%;
      align-items: center;
-     margin: 10px;
-     padding: 10px;
+     margin: 5px;
+     padding: 5px;
      display: flex;
      justify-content: center;
      flex-direction: column;
@@ -866,7 +857,7 @@ div.column section {
  li.tech-subgroup h3 {
     text-align: center;
     text-transform: capitalize;
-    margin: 15px auto;
+    margin: 5px auto;
     width: auto;
     font-size: 27px;
     text-transform: uppercase;
@@ -889,7 +880,7 @@ div.column section {
   
 }
 #exp .job-card h5{
-    margin-top:10px;
+    margin-top:5px;
 }
 #technologies i, #technologies svg, #technologies svg path {
     color: #5f01a7;
@@ -909,12 +900,7 @@ i{
 ul.job-highlights  {
     list-style: circle;
     justify-content: start;
-    margin: 10px;
-}
-ul.job-highlights > li{
-margin: 10px;
-
-}
+    margin: 10px;}
 p.project-description {
     padding: 5px 15px;
     margin: 5px 0;
@@ -952,7 +938,7 @@ div.column section.objective-summary{
     text-align: center;
 }
 section.objective-summary > p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: -25px;
 
 }
@@ -990,4 +976,8 @@ pre{
 
 li.tech-subgroup> ul > li i, li.tech-subgroup> ul > li svg, li.tech-subgroup> ul > li span {
     font-size: 25px;
+}.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 5px;
+    font-weight: 500;
+    line-height: 1.2;
 }
