@@ -198,13 +198,11 @@ ul.exp-jobs {
 }
 @media(min-width: 768px){
     main{
-        width: 80%;
+        
         margin: 0 auto;
         }
 }
-@media(min-width: 991px){
-    main{ width: 70%;}
-}
+
 
 
 /* https://websiddu.github.io/technology-icons/ */
@@ -747,7 +745,6 @@ ul.contact-info> li{
 }
 
 body{
-    background-color: lightgrey;
     font-size: 16px;
 }
 h1,h2, #technologies h3,  #technologies li{
@@ -822,7 +819,7 @@ div.column section {
 
  li.tech-subgroup{
      width: 100%;
-     border: 2px solid white;
+     border: 2px solid lightgrey;
      border-radius: 10px;
      margin: 3px 0;
  }
@@ -965,12 +962,9 @@ pre{
 }
 @media(min-width: 768px){
     main{
-        width: 80%;
+   
         margin: 0 auto;
         }
-}
-@media(min-width: 991px){
-    main{ width: 70%;}
 }
 
 
@@ -989,10 +983,10 @@ section.objective-summary > p {
 
 ul.contact-info {
     width: 300px;
-    margin-top: 20px;
+    margin-top: 0px;
     border: 1px solid darkgray;
     padding: 10px;
-    max-width: 50%;
+    max-width: 40%;
     margin-bottom: -10px;
 }
 ul.contact-info> li.gmail {
@@ -1015,7 +1009,7 @@ div.column section.column-header {
 }
 
 div.header-info {
-    width: 50%;
+    width: 60%;
 }
 
 .job-card h3 {
