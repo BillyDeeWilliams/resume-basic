@@ -1017,3 +1017,7 @@ div.column section.column-header {
 div.header-info {
     width: 50%;
 }
+
+.job-card h3 {
+    margin-top: 10px;
+}
