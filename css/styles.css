@@ -1003,3 +1003,6 @@ ul.contact-info> li.phone, ul.contact-info> li.location {
     margin: 0;
     text-align: left;
 }
+.job-card h5{
+    display: none;
+}
