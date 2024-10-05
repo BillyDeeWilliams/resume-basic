@@ -992,6 +992,8 @@ ul.contact-info {
     margin-top: 20px;
     border: 1px solid darkgray;
     padding: 10px;
+    max-width: 50%;
+    margin-bottom: -10px;
 }
 ul.contact-info> li.gmail {
     width: 100%;
@@ -1005,4 +1007,13 @@ ul.contact-info> li.phone, ul.contact-info> li.location {
 }
 .job-card h5{
     display: none;
+}
+
+div.column section.column-header {
+    height: 135px;
+    margin: 40px auto;
+}
+
+div.header-info {
+    width: 50%;
 }
