@@ -753,7 +753,7 @@ h1,h2, #technologies h3,  #technologies li{
 
 h1.name{
     color: darkblue;
-font-size: 45px;
+font-size: 40px;
 letter-spacing: 2.5px;
 text-transform: capitalize;
 }
