@@ -751,10 +751,11 @@ h1,h2, #technologies h3,  #technologies li{
     /* text-shadow: -2px 1px 5px #766f6fc7; */
 }
 
-.name{
+h1.name{
     color: darkblue;
 font-size: 45px;
 letter-spacing: 2.5px;
+text-transform: capitalize;
 }
 .position{
     font-size: 30px;
@@ -982,11 +983,11 @@ section.objective-summary > p {
 }
 
 ul.contact-info {
-    width: 300px;
+    
     margin-top: 0px;
     border: 1px solid darkgray;
     padding: 10px;
-    max-width: 40%;
+    max-width: 47%;
     margin-bottom: -10px;
 }
 ul.contact-info> li.gmail {
@@ -997,6 +998,10 @@ ul.contact-info> li.gmail {
 ul.contact-info> li.phone, ul.contact-info> li.location {
     width: 45%;
     margin: 0;
+    text-align: center;
+}
+
+ul.contact-info> li.phone{
     text-align: left;
 }
 .job-card h5{
